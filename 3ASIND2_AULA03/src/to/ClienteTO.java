@@ -23,7 +23,7 @@ public class ClienteTO {
 	public void setFone(String fone) {
 		this.fone = fone;
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -47,5 +47,7 @@ public class ClienteTO {
 			return false;
 		return true;
 	}
+
+	
 
 }

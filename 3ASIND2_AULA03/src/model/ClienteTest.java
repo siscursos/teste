@@ -28,7 +28,11 @@ public class ClienteTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals("Teste1", 2, -2);//Esperado, obtido
+		assertEquals("Teste double", 1.0/3.0, 0.333, 0.001);//Esperado, obtido, precisão
+		int[] v1 = {1,2,3};
+		int[] v2 = {1,2,3};
+		assertArrayEquals("Vetor", v1, v2);//Teste vetor
 	}
 
 }
